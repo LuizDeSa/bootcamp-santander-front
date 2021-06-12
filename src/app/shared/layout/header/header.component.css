@@ -1,0 +1,27 @@
+.header{
+  width: 100%;
+  padding: 1rem 1.5rem; /*medida relativa 1 rem == 16px(padrão) atl + z converte se tiver o px to rem*/
+  /*padding: 16px 24px 16px 24px;*/
+  /*padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;*/
+
+
+  background-color: var(--primary-color);
+
+  display: flex;
+  flex-direction: row;/*se inverter os dois debaixo tbm terão papeis investidos*/
+  justify-content: flex-start;/*alinha em relação as row*/
+  align-items: center;/*alinha em relação as altura*/
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(77, 54, 54, 0.23);
+
+}
+
+@media screen and (max-width: 768px) {
+/*tudo o que está aqui so será executado de 768 para baixo*/
+  .header{
+    justify-content: center;/*alinha em relação as row*/
+  }
+}

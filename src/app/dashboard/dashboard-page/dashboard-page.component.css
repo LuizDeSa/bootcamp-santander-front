@@ -1,0 +1,8 @@
+.container{
+   width: 100%;
+   padding: 1.5rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;/*organiza o que é exibido na tela conforme for mudando o tamanho da pagina*/
+   justify-content: center;
+}
